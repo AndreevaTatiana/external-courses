@@ -1,5 +1,3 @@
-module.exports = getMaxElem
-
 function getMaxElem(arr) {
 	let max = 0;
 	for (let i = 0; i < arr.length; i++) {
@@ -10,8 +8,7 @@ function getMaxElem(arr) {
 				}
 			}
 		}
-   }
-   return max;
+	}
+	return max;
 }
-
-
+module.exports = getMaxElem
