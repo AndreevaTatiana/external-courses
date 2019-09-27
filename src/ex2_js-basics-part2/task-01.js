@@ -1,5 +1,3 @@
-module.exports = getType
-
 function getType(argument) {
 	if (typeof argument === "number") {
 		return 'number';
@@ -8,12 +6,4 @@ function getType(argument) {
 	} 
 	return undefined;
 }
-
-
-
-
-
-
-
-
-
+module.exports = getType
