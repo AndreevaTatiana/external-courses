@@ -1,26 +1,19 @@
-module.exports = determineSimpleNum
-
 function determineSimpleNum(num) {
-	let result;
-	if (typeof num !== "number" || num > 1000 || num === 0) {
-		result = 'Данные неверны';
-		return result;
+	function isInteger(n) {
+		return (n ^ 0) === n;
 	}
-	if (num === 1) {
-		result = 'Единица не относится ни к простым, ни к составным числам';
-		return result;
-	}
-	let arr = [2,3,5,7];
-	for (let i = 0; i < arr.length; i++) {
-		if (num === arr[i]) {
-			result = `Число ${num} - простое число`;
-			return result;
+	if (num > 1 && num <= 1000 ) {
+		if (isInteger(Math.sqrt(num))) {
+			return ('Число ' + num + ' - составное число');
 		}
-		if (num%arr[i] === 0) {
-			result = `Число ${num} - составное число`;
-			return result;
+		let arr = [2,3,5,7];
+		for (let i = 0; i < arr.length; i++) {
+			if (num !== arr[i] && num%arr[i] === 0) {
+					return ('Число ' + num + ' - составное число');
+			}
+			return ('Число ' + num + ' - простое число');
 		}
 	}
-	result = `Число ${num} - простое число`;
-	return result;
+	return 'Данные неверны';
 }
+module.exports = determineSimpleNum
