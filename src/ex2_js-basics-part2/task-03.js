@@ -1,9 +1,5 @@
-module.exports = calcEvenOdd
 function calcEvenOdd(arr) {
-	let count0 = 0;
-	let countEven = 0;
-	let countOdd = 0;
-	let count = 0;
+	let count0 = 0, countEven = 0, countOdd = 0, count = 0;
 	let result = [];
 	
 	for (let i = 0; i < arr.length; i++){
@@ -22,4 +18,4 @@ function calcEvenOdd(arr) {
 	result.push(countEven,countOdd,count0)
 	return result;
 }
-
+module.exports = calcEvenOdd
