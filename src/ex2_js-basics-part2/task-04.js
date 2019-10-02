@@ -3,7 +3,6 @@ function checkReplay(arr) {
 		for (j = i + 1 ; j < arr.length; j++) {
 			if (arr[i] === arr[j]) {
 				return true;
-				break;
 			} 
 		}
 	}
