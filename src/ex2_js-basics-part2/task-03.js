@@ -1,7 +1,7 @@
 function calcEvenOdd(arr) {
-	let countZero = 0;
-			countEven = 0;
-			countOdd = 0;
+	let countZero = 0,
+			countEven = 0,
+			countOdd = 0,
 			result = [];
 	
 	for (let i = 0; i < arr.length; i++){
