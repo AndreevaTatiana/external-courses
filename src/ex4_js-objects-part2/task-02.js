@@ -4,8 +4,3 @@ function createObj() {
 }
 
 module.exports = createObj
-
-
- 
-		
-
