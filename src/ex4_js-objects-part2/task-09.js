@@ -1,6 +1,6 @@
 function insertStr(sourceStr,str,pos) {
 	let arr = sourceStr.split(' '),
-			newArr = [];
+	newArr = [];
 	for (let i = 0; i < arr.length; i++) {
 		if (i === pos) {
 			 newArr.push(arr[i], str)
