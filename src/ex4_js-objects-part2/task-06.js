@@ -6,7 +6,7 @@ function getUpCaseSym (str) {
 	for (let i = 1; i < str.length; i++) {
 		newStr += (str[i - 1] == ' ') ? str[i].toUpperCase() : str[i];
 	}
-		return newStr;
+	return newStr;
 }
 
 module.exports = getUpCaseSym
