@@ -1,4 +1,4 @@
-function getReverse(str) {
+function getReverseStr(str) {
 	let newStr = '';
 	for (let i = str.length-1; i >= 0 ; i--) {
 		newStr += str[i];	
@@ -6,4 +6,4 @@ function getReverse(str) {
 	return newStr;
 }
 
-module.exports = getReverse
+module.exports = getReverseStr
