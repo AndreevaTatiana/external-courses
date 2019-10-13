@@ -1,10 +1,7 @@
-function getAnalogMap(arr,callback) {
-	const newArr = [],
-	funk = callback,
-	array = [];
-	Object.assign(array, arr);
-	for (let i = 0; i < arr.length; i++){
-		newArr.push(funk(arr[i],i,array));
+function getAnalogMap(array,callback) {
+	const newArr = [];
+	for (let i = 0; i < array.length; i++){
+		newArr.push(callback(array[i],i,array));
 	}
 	return newArr;
 }
