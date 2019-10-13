@@ -15,14 +15,15 @@ function getAnalogSlice(array,begin,end) {
 	}
 	
 	function getIndex(value,len){
-		value = +value;
-		if (Number.isNaN(value)) { 
-			return value = 0;
+		let index = +value;
+		if (Number.isNaN(index)) {
+			index = 0;
+			return index;
 		}
-		if (value < 0) {
-			return len+value;
+		if (index < 0) {
+			return len+index;
 		}
-		return value;
+		return index;
 	}
 	return newArr
 }
