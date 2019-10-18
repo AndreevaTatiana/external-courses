@@ -1,0 +1,35 @@
+@font-face{
+	font-family: Nautilus;
+	src: url(fonts/Nautilus.otf);
+}
+html{
+	font-size: 20px;
+}
+body {
+	background-image: url("image/smile.jpg");
+}
+#parent {
+	width: 60%;
+	margin: 0 auto;
+}
+#parent > div {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+#div2 {
+	background: #DC143C;
+}
+
+#div1 > p {
+	font: italic 13px/27px Arial;
+}
+
+#div2 > p {
+	font: bold 1.1em "Times New Roman", Georgia, serif; 
+}
+#div3 > p {
+	font-size: 0.9rem;
+	font-family: Nautilus;
+}
+

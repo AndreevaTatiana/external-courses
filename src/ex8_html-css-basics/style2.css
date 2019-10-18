@@ -1,0 +1,17 @@
+body {
+	margin: auto;
+	width: 80%;
+	}
+#green {
+	background: green;
+}
+h4 {
+	margin-bottom: 0;
+}
+#text {
+	width: 30%;
+}
+img {
+	width: 150px;
+	height: 150px;
+	}
