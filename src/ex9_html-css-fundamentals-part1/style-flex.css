@@ -6,11 +6,9 @@ header {
 }
 #wrapper {
 	display: flex;
-	flex-direction: row;
 }
 section {
   background: lightgreen;
-  width: 75%;
 }
 article {
   background: white;
@@ -18,8 +16,8 @@ article {
 }
 aside {
   background: pink;
-  width: 25%;	
+	flex-shrink: 3;
 }
 header, article, section, .module {
-  padding: 1rem;
+	padding: 1rem;
 }
