@@ -1,0 +1,64 @@
+div {
+	margin-bottom: 15px;
+}
+input {
+	border:1px solid black;
+	border-radius: 4px;
+	
+}
+textarea {
+	resize: both;
+	width: 200px;
+	height: 50px;
+	border-radius: 4px;
+}
+label {
+	display: inline-block;
+	width: 6%;
+	vertical-align: top;
+}
+button {
+	width: 80px;
+	height: 20px;
+	background:#f4f4f4;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #ececec;
+	margin-left: 60px;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-right: 6px solid red;
+	border-bottom: 6px solid transparent;
+	align-self: center;
+}
+.rectangle {
+	font-size: 11px;
+	color: #ffffff;
+	background: red;
+	width: 100px;
+	height: 17px;
+	text-align: center;
+	padding-top: 3px;
+}
+#err {
+	display: none;
+}
+#err1 {
+	display: none;
+}
+#email:invalid + #err {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top:6.35%;
+	left: 24%;
+}
+#website:invalid + #err1 {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top:11.4%;
+	left: 24%;
+}
