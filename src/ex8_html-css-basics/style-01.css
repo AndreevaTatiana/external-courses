@@ -12,9 +12,9 @@ img {
 table {
 	border:1px solid black;	
 }
-.vl {
+.BorderBottom {
 	border-bottom:1px solid black;	
 }
-.v2 {
+.BorderRight {
 	border-right:1px solid black;	
 }
