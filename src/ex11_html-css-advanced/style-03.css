@@ -1,0 +1,262 @@
+@font-face{
+	font-family: Roboto;
+	src: url(Roboto-Regular.ttf);
+}
+body {
+	padding-top: 20px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	background: #E5E5E5;
+	}
+#laptop {
+	position: relative;
+	margin: 0px auto;
+	width: 1152px;
+	height: 700px;
+	background: #0079BF;
+}
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	border-bottom: 2px solid #0079BF;
+}
+header, footer {
+	position: absolute;
+	left: 0px;
+	width: 1152px;
+	height: 55px;
+}
+header {
+	top: 0px;
+	background: #0067A3;
+}
+#app-logo {
+	position: absolute;
+	left: 14px;
+	top: 5px;
+	width: 384px;
+	height: 45px;	
+}
+#logo {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 45px;
+	height: 45px;
+}
+.circle {
+	position: absolute;
+	left: 17.19%;
+	margin-top: 1px;
+	margin-right: 2px;
+	width: 6.03px;
+  height: 6.03px;
+	border: 1px solid #ffffff;
+	border-radius: 3.015px;
+}
+.circleTop {
+	top: 16.53%;
+}
+.circleAverage {
+	top: 39.19%;
+}
+.circleBottom {
+	top: 61.84%;
+}
+.bars {
+	position: absolute;
+	left: 39.06%;
+	width: 19.69px;
+  height: 1.41px;
+  background: #ffffff;
+}
+.barsTop {
+	top: 25.78%;
+} 
+.barsAverage {
+	top: 48.44%;
+}
+.barsBottom {
+	top: 71.09%;
+}
+header #app-logo > a {
+	position: absolute;
+	left: 53px;
+	top: 6px;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 33px;
+}
+#wrapCreatList {
+	position: absolute;
+	left: 858px;
+	top: 11px;
+	width: 181px;
+	height: 33px;
+	border-radius: 5px;
+	background: #FFFFFF;	
+}
+#create-list {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 80%;
+	height: 31px;
+	border: none; 
+	outline: none;
+  border-radius: 5px;	
+	color: #000000;
+	font-size: 18px;
+	line-height: 21px;
+}
+#add-list {
+	position: absolute;
+	left: 8px;
+	top: 4px;
+	width: 24px;
+	height: 24px;
+}
+#add > i {
+	position: absolute;
+	left: 0.5px;
+	top: 4.5px;
+	width: 22px;
+	height: 22px;
+	color: #ffffff;
+}
+#add {	
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	background: #000000;
+	border-radius: 11px ;
+	border: none;
+	outline: none;	
+}
+#user-menu {
+	position: absolute;
+	left: 1088px;
+	top: 7px;
+	width: 64px;
+	height: 40px;
+}
+#arrow-down {
+	position: absolute;
+	left: 40px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+}
+#chevron-down {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: -1.56%;
+	bottom: 1.56%;
+}
+#chevron-down > i {
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	top: 34.21%;
+	bottom: 34.9%;
+	color: #FFFFFF;
+}
+#user-avatar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	height: 40px;
+}
+#elipse {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 39px;
+	height: 39px;
+	border: 1px solid #FFFFFF;
+	border-radius: 36px/40px;
+	background: linear-gradient(to top, #000000 6px, #FFFFFF 6px );
+}
+#user {
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 39px;
+	height: 39px;
+}
+main {
+	height: 578px;
+	background: #0079BF;
+}
+#horizontal-scroll {
+	position: absolute;
+	left: 0px;
+	top: 633px;
+	width: 1152px;
+	height: 12px;
+}
+#line {
+	position: absolute;
+	left: 499px;
+	top: 0px;
+	width: 20px;
+	height: 0px;
+	border: 1px solid #0079BF;
+	transform: rotate(-90deg);
+}
+#scroll {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 108px;
+	height: 12px;
+	border-radius: 5px;
+	background-color: #CBCBCB;
+}
+#rectangleWhite {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1152px;
+	height: 12px;
+	background: #FFFFFF;
+}
+footer {
+	top: 645px;
+}
+#wrapper {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1152px;
+	height: 55px;
+	background: #0067A3;
+}
+.footer {
+	position: absolute;
+	font-size: 18px;
+	line-height: 21px;
+}
+.activeTasks {
+	left: 67px;
+	top: 17px;
+	width: 138px;
+	height: 21px;
+}
+.finishedTasks {
+	left: 241px;
+	top: 17px;
+	width: 159px;
+	height: 21px;
+}
+.kanbanBoard {
+	left: 849px;
+	top: 17px;
+	width: 279px;
+	height: 21px;
+}
