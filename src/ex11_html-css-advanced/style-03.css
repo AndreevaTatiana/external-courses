@@ -21,8 +21,7 @@ header, footer {
 header {
 	justify-content: space-between;
 }
-#appLogo {
-	position: relative;
+.appLogo {
 	display: flex;
 	align-items: center;
 	width: 384px;
@@ -31,10 +30,11 @@ header {
 .menuButton {
 	width: 40px;
 	height: 40px;
+	color: #ffffff;
 	border: none;
 	outline: none;
 	margin-left: 5px;
-	margin-right: 8px;
+	margin-right: 5px;
   margin-top: 7px;
 	cursor:pointer;
 	background: #0067A3;
@@ -43,84 +43,31 @@ header {
 	box-shadow: 0 0 4px 2px #005282;
 	background: linear-gradient(#006cb7,#0067A3);
 }
-.imgMenu {
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	top: 13px;
-	left: 10px;
-	z-index:2;
-}
-.circleBlock {
-	display: flex;
-	flex-direction: column;
-	margin-right: 2px;
-}
-.circle {
-	width: 6px;
-  height: 6px;
-	border: 1px solid #ffffff;
-	border-radius: 3px;
-}
-.circle:not(:first-child) {
-	margin-top: 1px;
-}	
-.barsBlock {
-	display: flex;
-	flex-direction: column;	
-}
-.bars {
-	width: 19.69px;
-  height: 1.41px;
-  background: #ffffff;
-}
-.bars:nth-child(1) {
-	margin-top: 3px;
-}
-.bars:not(:first-child) {
-	margin-top: 8px;
-}
 .name {
-	padding-top: 5px;
 	font-size: 28px;
 	color: #FFFFFF;
 }
-.wrap {
-	display: flex;
-	align-items: center;
-}
-.createList {
-	display: flex;
-	justify-content: space-around;
+.add {
 	width: 181px;
 	height: 33px;
 	border-radius: 5px;
-	background: #ffffff;
-}
-.add {
-	align-self: center;
-	width: 22px;
-  height: 22px;
-	color: #ffffff;
-	font-size: 16px;
-	line-height: 20px;
-	border: 1px solid #000000;
+	color: #000000;
+	border: none;
 	outline: none;
-	border-radius: 11px;
-	background: #000000;
+	background: #ffffff;
 	cursor: pointer;
 }
-.add:hover, .add:focus  {
-	border: 1px solid gray;
-	box-shadow:
-		inset 0 -1px 2px #ffffff,
-		inset 0 1px 2px #ffffff,
-		0 0 7px #4e4e4e;
+.add:hover, .add:focus {
+	background:gray;
+	color: #ffffff;
+	box-shadow: 0 0 8px 5px #ffffff;
 }
-.add > span {
-	margin-left: -3px;
+.wrapper {
+	display: flex;
+	align-items: center;
+	margin-right: 15px;
 }
-#nameList {
+.nameList {
 	width: 140px;
 	height: 30px;
 	font-size: 18px;
@@ -139,28 +86,22 @@ header {
 	background: #FFFFFF;
 	background: linear-gradient(to top, #000000 6px, #FFFFFF 6px );
 }
-#user {
+.user {
 	width: 39px;
 	height: 39px;
 }
 .openMenu {
 	align-self: center;
-	height: 20px;
+	color: #ffffff;
 	border: none;
 	outline: none;
 	background: #0067A3;
+	margin-left: 5px;
 	cursor: pointer;
-	margin-left: 3px;
-	margin-right: 3px;
 }
 .openMenu:hover, .openMenu:focus {
 	box-shadow: 0 0 4px 2px #005282;
 	background: linear-gradient(#006cb7,#0067A3);
-}
-.fa-chevron-down {
-	width: 12px;
-	height: 8px;
-	color: #FFFFFF;
 }
 main {
 	height: 578px;
