@@ -1,0 +1,132 @@
+@font-face{
+	font-family: Roboto;
+	src: url(Roboto-Regular.ttf);
+}
+html {
+	background: #E5E5E5;
+}
+body {
+	margin: 0px auto;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	width: 1152px;
+}
+header, footer {
+	display: flex;
+	flex-direction: row;
+	height: 55px;
+	background: #0067A3;
+}
+header {
+	justify-content: space-between;
+}
+.appLogo {
+	display: flex;
+	align-items: center;
+	width: 384px;
+	height: 45px;
+}
+.menuButton {
+	width: 40px;
+	height: 40px;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	margin-left: 5px;
+	margin-right: 5px;
+  margin-top: 7px;
+	cursor:pointer;
+	background: #0067A3;
+}
+.menuButton:hover, .menuButton:focus {
+	box-shadow: 0 0 4px 2px #005282;
+	background: linear-gradient(#006cb7,#0067A3);
+}
+.name {
+	font-size: 28px;
+	color: #FFFFFF;
+}
+.add {
+	width: 181px;
+	height: 33px;
+	border-radius: 5px;
+	color: #000000;
+	border: none;
+	outline: none;
+	background: #ffffff;
+	cursor: pointer;
+}
+.add:hover, .add:focus {
+	background:gray;
+	color: #ffffff;
+	box-shadow: 0 0 8px 5px #ffffff;
+}
+.wrapper {
+	display: flex;
+	align-items: center;
+	margin-right: 15px;
+}
+.nameList {
+	width: 140px;
+	height: 30px;
+	font-size: 18px;
+	border: none;
+	outline: none;
+}
+.userMenu {
+	display: flex;
+}
+.userAvatar {
+	width: 40px;
+	height: 40px;
+	margin-left: 49px;
+	border-radius: 20px;
+	border: 1px solid #FFFFFF;
+	background: #FFFFFF;
+	background: linear-gradient(to top, #000000 6px, #FFFFFF 6px );
+}
+.user {
+	width: 39px;
+	height: 39px;
+}
+.openMenu {
+	align-self: center;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	background: #0067A3;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.openMenu:hover, .openMenu:focus {
+	box-shadow: 0 0 4px 2px #005282;
+	background: linear-gradient(#006cb7,#0067A3);
+}
+main {
+	height: 578px;
+	background: #0079BF;
+}
+.lineWhite {
+	height: 12px;
+	background: #FFFFFF;
+}
+.lineBlue {
+	width: 108px;
+	height: 12px;
+	border-radius: 5px;
+	background-color: #CBCBCB;
+	z-index: 2;
+}
+footer {
+	justify-content: space-around;
+	align-items: center;
+	font-size: 18px;
+	color: #ffffff;
+}
+.tasks {
+	display: flex;
+}
+.tasks > .text {
+	margin-right: 30px;
+}
