@@ -1,0 +1,187 @@
+@font-face{
+	font-family: Roboto;
+	src: url(Roboto-Regular.ttf);
+}
+html {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+}
+header {
+	flex: 0;
+}
+header, footer {
+	flex: 0;
+	display: flex;
+	flex-direction: row;
+	height: 55px;
+	background: #0067A3;
+}
+header {
+	justify-content: space-between;
+}
+.appLogo {
+	display: flex;
+	align-items: center;
+}
+.menuButton {
+	width: 40px;
+	height: 40px;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	margin-left: 5px;
+	margin-right: 5px;
+  margin-top: 7px;
+	cursor:pointer;
+	background: #0067A3;
+}
+.menuButton:hover, .menuButton:focus {
+	box-shadow: 0 0 4px 2px #005282;
+	background: linear-gradient(#006cb7,#0067A3);
+}
+.name {
+	font-size: 28px;
+	color: #FFFFFF;
+}
+.add {
+	width: 181px;
+	height: 33px;
+	border-radius: 5px;
+	color: #000000;
+	border: none;
+	outline: none;
+	background: #ffffff;
+	cursor: pointer;
+}
+.add:hover, .add:focus {
+	background:gray;
+	color: #ffffff;
+	box-shadow: 0 0 8px 5px #ffffff;
+}
+.wrapper {
+	display: flex;
+	align-items: center;
+	margin-right: 15px;
+}
+.nameList {
+	width: 140px;
+	height: 30px;
+	font-size: 18px;
+	border: none;
+	outline: none;
+}
+.userMenu {
+	display: flex;
+}
+.userAvatar {
+	width: 40px;
+	height: 40px;
+	margin-left: 49px;
+	border-radius: 20px;
+	border: 1px solid #FFFFFF;
+	background: #FFFFFF;
+	background: linear-gradient(to top, #000000 6px, #FFFFFF 6px );
+}
+.user {
+	width: 39px;
+	height: 39px;
+}
+.openMenu {
+	align-self: center;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	background: #0067A3;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.openMenu:hover, .openMenu:focus {
+	box-shadow: 0 0 4px 2px #005282;
+	background: linear-gradient(#006cb7,#0067A3);
+}
+.menuItem:hover, .menuItem:focus,.itemList:hover, .itemList:focus {
+	box-shadow: 0 0 4px 2px #005282;
+}
+main {	
+	flex: 1;
+	background: #0079BF;
+	padding: 20px 0px;
+	font-size: 18px;
+	overflow: auto;
+	height: 100%;
+}
+.wrapperMain {
+	flex: 1;
+	display: flex;
+	align-items: flex-start;
+}
+.listTask {
+	height: 100%;
+	box-sizing: border-box;
+	margin-left: 15px;
+	width: 270px;
+	border-radius: 10px;
+	background: #EBECF0;
+	padding: 12px;
+	overflow-y: auto;
+	max-height: 520px;
+}
+.headList {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	list-style-type: none;
+	width: 251px;
+	padding: 0px;
+	margin: 5px auto;
+}
+.item {
+	background: #ffffff; 
+	border-radius: 5px; 
+	padding: 7px; 
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.footerList {
+	font-size: 18px;
+	color: #5E6C84;	
+}
+.formBacklog {
+	display: none;
+}
+.selectReady {
+	display: none;
+	width: 240px;
+}
+.btnfooterList {
+	height: 21px;
+	border: none;
+	outline: none;
+	background: #EBECF0;
+	cursor: pointer;
+}
+.btnfooterList:hover, .btnfooterList:focus {
+	box-shadow: 0 0 4px 2px gray;
+}
+footer {
+	justify-content: space-around;
+	align-items: center;
+	font-size: 18px;
+	color: #ffffff;
+}
+.tasks {
+	display: flex;
+}
+.tasks > .text {
+	margin-right: 30px;
+}
+.text {padding: 10px;}

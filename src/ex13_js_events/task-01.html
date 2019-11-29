@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Kanban Boar</title>
+	<link rel="stylesheet" href="style-01.css">
+	<link rel="stylesheet" href="font-awesome.css">
+</head>
+<body>
+	<header>
+		<div class = "appLogo">
+			<button class = " fa fa-list-ul fa-lg menuButton" tabindex="1"></button>
+			<div class = "name">Awesome Kanban Boar</div>
+		</div>
+		<div class = "wrapper">
+			<button class = "fa fa-plus-circle fa-lg add" tabindex="2"> Create new list</button>
+			<div class = "userMenu">
+				<div class = "userAvatar">
+					<img src="maleuser_4942.png" alt="user" class ="user">
+				</div>
+				<button class = "fa fa-chevron-down openMenu" tabindex="3"></button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class = "wrapperMain">
+			<div class = "listTask">
+				<div class = "headList">
+					<span>Backlog</span>
+					<button class = "btnHeadList fa fa-ellipsis-h" tabindex="12"></button>
+				</div>
+				<div class = "mainList">
+					<ul class = "ulBacklog"></ul>
+				</div>
+				<div class = "footerList">
+					<button class = "clearAll">Clear All</button>
+					<button class = "addCardBacklog btnfooterList" tabindex="13">+Add card</button>
+					<form class = "formBacklog">
+						<input id="item" type="text" placeholder="New" class = "nameTaskBacklog">
+						<input type="button" class = "btnSubmit" value="Сохранить">
+					</form>
+				</div>
+			</div>
+			<script src="task-01-2.js"></script>
+			<div class = "listTask">
+				<div class = "headList">
+					<span>Ready</span>
+					<button class = "btnHeadList fa fa-ellipsis-h" tabindex="14"></button>
+				</div>
+				<div class = "mainList">
+					<ul class = "ulReady"></ul>
+				</div>
+				<div class = "footerList">
+					<button class = "clearAlReady">Clear All</button>
+					<button class = "addCardReady btnfooterList" tabindex="15">+Add card</button>
+					<select class = "selectReady"></select>
+				</div>
+			</div>
+			<script src="task-01-3.js"></script>
+			<div class = "listTask">
+				<div class = "headList">
+					<span>in Progress</span>
+					<button class = "btnHeadList fa fa-ellipsis-h" tabindex="16"></button>
+				</div>
+				<div class = "mainList">
+					<ul class = "backlog"></ul>
+				</div>
+				<div class = "footerList">
+					<button class = "btnFooterList btnfooterList" tabindex="17">+Add card</button>
+				</div>
+			</div>
+			<div class = "listTask">
+				<div class = "headList">
+					<span>Finished</span>
+					<button class = "btnHeadList fa fa-ellipsis-h" tabindex="18"></button>
+				</div>
+					<div class = "mainList">
+						<ul class = "backlog"></ul>
+					</div>
+				<div class = "footerList">
+					<button class = "btnFooterList btnfooterList" tabindex="19">+Add card</button>
+				</div>
+			</div>	
+		</div>
+	</main>
+	<footer>
+		<div class = "tasks">
+			<div class = "text">Active tasks: &lsaquo;N&rsaquo;</div>
+			<div class = "text">Finished tasks: &lsaquo;M&rsaquo;</div>
+		</div>
+		<div class = "text">Kanban board by TATIANA, 2019</div>
+	</footer>
+</body>
+</html>
